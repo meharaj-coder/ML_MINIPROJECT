@@ -1,14 +1,4 @@
-"""
-Link Failure Prediction and Localization in Cloud-Scale Networks
-Demonstration implementation for UE24CS352A Machine Learning mini-project.
 
-IMPORTANT DATA NOTE:
-The supplied reference paper describes a 6,000-row live-network dataset but does not
-include the raw measurements in the PDF. This program therefore creates a clearly
-labelled SYNTHETIC demonstration dataset. Its scores are not a reproduction of the
-paper's reported results. Replace generate_demo_data() with the actual labelled data
-before making claims about real network performance.
-"""
 from pathlib import Path
 import argparse
 import numpy as np

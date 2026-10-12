@@ -37,31 +37,8 @@ Optional sample count:
 python main.py --samples 6000
 ```
 
-## Outputs
-The script creates:
-- `outputs/synthetic_demo_dataset.csv` — generated synthetic samples and labels
-- `outputs/model_results.csv` — test accuracy for each model
-- `figures/feature_scatter.png` — engineered-feature scatter plot
-- `figures/model_accuracy.png` — model comparison
-- `figures/confusion_*.png` — confusion matrices
 
-The program uses a stratified 75%/25% train/test split with a fixed random seed for repeatability. Scaling is performed within each model pipeline to avoid fitting the scaler on test data.
 
-## Suggested GitHub repository structure
-```text
-mini-project/
-├── main.py
-├── requirements.txt
-├── README.md
-├── report.pdf
-├── presentation.pptx
-├── outputs/
-└── figures/
-```
 
-## Before submission
-1. Confirm your team's assigned problem statement and member names.
-2. Replace synthetic data with the real/approved dataset if available.
-3. Run the code on your own machine and inspect the generated outputs.
-4. Add both teammates as contributors and share the private GitHub repository with faculty/TAs.
-5. Do not commit credentials, private telemetry, or other confidential data.
+
+
